@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    pi-slides (0.0.1)
+    pi-slideshow (0.0.1)
       puma
       sinatra
       trollop
@@ -9,17 +9,27 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
-    puma (1.6.3)
-      rack (~> 1.2)
-    rack (1.5.2)
+    mustermann (3.0.0)
+      ruby2_keywords (~> 0.0.1)
+    nio4r (2.5.8)
+    puma (6.0.2)
+      nio4r (~> 2.0)
+    rack (2.2.6.2)
+    rack-protection (3.0.5)
+      rack
     rake (10.2.2)
-    sinatra (1.0)
-      rack (>= 1.0)
-    trollop (2.0)
+    ruby2_keywords (0.0.5)
+    sinatra (3.0.5)
+      mustermann (~> 3.0)
+      rack (~> 2.2, >= 2.2.4)
+      rack-protection (= 3.0.5)
+      tilt (~> 2.0)
+    tilt (2.0.11)
+    trollop (2.9.10)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  pi-slides!
+  pi-slideshow!
   rake
